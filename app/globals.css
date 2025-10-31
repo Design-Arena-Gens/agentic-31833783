@@ -1,0 +1,93 @@
+:root {
+  color-scheme: light;
+  background-color: #f7f6f3;
+  color: #1b1b1d;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.6;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+}
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 1.5rem 4rem;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.header {
+  margin-bottom: 2.5rem;
+}
+
+.title {
+  font-size: clamp(2rem, 3vw, 2.75rem);
+  font-weight: 700;
+  margin: 0 0 0.5rem 0;
+}
+
+.subtitle {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #484852;
+}
+
+.section {
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 24px 45px rgba(27, 27, 29, 0.08);
+  padding: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.section h2 {
+  font-size: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.paragraph {
+  margin: 0 0 1.25rem 0;
+  text-align: justify;
+}
+
+.paragraph:last-of-type {
+  margin-bottom: 0;
+}
+
+.reference-list {
+  list-style: decimal;
+  margin: 0;
+  padding-left: 1.5rem;
+}
+
+.reference-item {
+  margin-bottom: 1rem;
+  word-break: break-word;
+}
+
+.reference-link {
+  color: #0050b3;
+  text-decoration: none;
+}
+
+.reference-link:hover,
+.reference-link:focus {
+  text-decoration: underline;
+}
